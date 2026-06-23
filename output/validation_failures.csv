@@ -1,0 +1,6 @@
+rule_id,severity,issue,value
+DQ-03,WARNING,Missing Website,91.0
+DQ-06,WARNING,Invalid ROE Percentage,
+DQ-06,WARNING,Invalid ROE Percentage,
+DQ-08,WARNING,Missing NSE Profile,91.0
+DQ-09,WARNING,Missing BSE Profile,91.0
