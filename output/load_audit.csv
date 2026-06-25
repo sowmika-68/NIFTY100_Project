@@ -1,0 +1,19 @@
+table_name,row_count,status
+companies,92,SUCCESS
+profitandloss,1276,SUCCESS
+balancesheet,1312,SUCCESS
+cashflow,1187,SUCCESS
+analysis,20,SUCCESS
+documents,1585,SUCCESS
+prosandcons,16,SUCCESS
+sectors,91,SUCCESS
+stock_prices,5519,SUCCESS
+financial_ratios,1183,SUCCESS
+peer_groups,55,SUCCESS
+market_cap,551,SUCCESS
+
+
+import pandas as pd
+
+df = pd.read_csv("output/load_audit.csv")
+print(df)
