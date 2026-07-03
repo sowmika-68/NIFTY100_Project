@@ -7,7 +7,7 @@ for file in os.listdir(folder):
     if file.endswith(".xlsx"):
         try:
             df = pd.read_excel(os.path.join(folder, file))
-            print("\n" + "="*50)
+            print("\n" + "=" * 50)
             print(f"Loaded: {file}")
             print(f"Shape: {df.shape}")
             print(f"Columns: {list(df.columns)}")
