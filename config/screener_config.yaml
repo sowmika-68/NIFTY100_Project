@@ -1,0 +1,57 @@
+filters:
+
+  roe:
+    column: return_on_equity_pct
+    min: 15
+
+  debt_to_equity:
+    column: debt_to_equity
+    max: 1.0
+
+  free_cash_flow:
+    column: free_cash_flow_cr
+    min: 0
+
+  revenue_growth:
+    column: compounded_sales_growth
+    min: 10
+
+  profit_growth:
+    column: compounded_profit_growth
+    min: 10
+
+  operating_margin:
+    column: operating_profit_margin_pct
+    min: 15
+
+  pe_ratio:
+    column: pe_ratio
+    max: 25
+
+  pb_ratio:
+    column: pb_ratio
+    max: 3
+
+  dividend_yield:
+    column: dividend_yield_pct
+    min: 1
+
+  interest_coverage:
+    column: interest_coverage
+    min: 3
+
+  market_cap:
+    column: market_cap_crore
+    min: 5000
+
+  net_profit:
+    column: net_profit
+    min: 100
+
+  asset_turnover:
+    column: asset_turnover
+    min: 0.5
+
+  sales:
+    column: sales
+    min: 1000

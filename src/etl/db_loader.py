@@ -29,7 +29,15 @@ for table_name, file_name in files.items():
 
     try:
 
-        df = pd.read_excel(path, header=1)
+        if table_name in [
+            "market_cap",
+            "sectors",
+            "financial_ratios",
+            "peer_groups",
+        ]:
+            df = pd.read_excel(path)
+        else:
+            df = pd.read_excel(path, header=1)
 
         df.to_sql(table_name, conn, if_exists="replace", index=False)
 
