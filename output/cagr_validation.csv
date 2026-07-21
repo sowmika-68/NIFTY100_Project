@@ -1,0 +1,2 @@
+company_id,metric_type,parsed_value,computed_value,difference_pct,status
+ALL,CAGR_VALIDATION,,,,SKIPPED - CAGR columns not available in financial_ratios
