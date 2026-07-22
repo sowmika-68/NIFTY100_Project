@@ -102,6 +102,40 @@ def main():
             file_name="valuation_summary.csv",
             mime="text/csv"
         )
+        st.markdown("---")
+        st.header("📦 Generated Reports")
+
+        from pathlib import Path
+
+        BASE_DIR = Path(__file__).resolve().parents[3]
+        OUTPUT_DIR = BASE_DIR / "output"
+ 
+        report_files = [
+            "screener_output.xlsx",
+            "peer_comparison.xlsx",
+            "valuation_summary.xlsx",
+            "cashflow_intelligence.xlsx",
+            "pros_cons_generated.csv",
+        ]
+
+        for filename in report_files:
+
+            file_path = OUTPUT_DIR / filename
+
+            if file_path.exists():
+
+                with open(file_path, "rb") as f:
+
+                    st.download_button(
+                        label=f"⬇ Download {filename}",
+                        data=f,
+                        file_name=filename,
+                        key=filename,
+                    )
+
+            else:
+
+                 st.warning(f"{filename} not found")
 
 
 if __name__ == "__main__":
