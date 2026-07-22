@@ -1,0 +1,101 @@
+company_id,previous_pattern,current_pattern,status
+ABB,Reinvestor,Reinvestor,No Change
+ADANIENSOL,Mixed,Reinvestor,Changed
+ADANIENT,Reinvestor,Mixed,Changed
+ADANIGREEN,Reinvestor,Mixed,Changed
+ADANIPORTS,Reinvestor,Reinvestor,No Change
+ADANIPOWER,Liquidating Assets,Liquidating Assets,No Change
+AGTL,Mixed,Reinvestor,Changed
+AMBUJACEM,Mixed,Mixed,No Change
+APOLLOHOSP,Reinvestor,Reinvestor,No Change
+ASIANPAINT,Reinvestor,Reinvestor,No Change
+AXISBANK,Mixed,Growth Funded by Debt,Changed
+BAJAJ-AUTO,Reinvestor,Reinvestor,No Change
+BAJAJFINSV,Growth Funded by Debt,Growth Funded by Debt,No Change
+BAJAJHLDNG,Reinvestor,Reinvestor,No Change
+BAJFINANCE,Growth Funded by Debt,Growth Funded by Debt,No Change
+BANKBARODA,Pre-Revenue,Growth Funded by Debt,Changed
+BEL,Liquidating Assets,Reinvestor,Changed
+BHARTIARTL,Reinvestor,Reinvestor,No Change
+BHEL,Distress Signal,Distress Signal,No Change
+BOSCHLTD,Liquidating Assets,Liquidating Assets,No Change
+BPCL,Reinvestor,Reinvestor,No Change
+BRITANNIA,Reinvestor,Liquidating Assets,Changed
+CANBK,Growth Funded by Debt,Reinvestor,Changed
+CHOLAFIN,Growth Funded by Debt,Growth Funded by Debt,No Change
+CIPLA,Reinvestor,Reinvestor,No Change
+COALINDIA,Reinvestor,Reinvestor,No Change
+DABUR,Reinvestor,Reinvestor,No Change
+DIVISLAB,Reinvestor,Reinvestor,No Change
+DLF,Reinvestor,Mixed,Changed
+DMART,Reinvestor,Reinvestor,No Change
+DRREDDY,Reinvestor,Reinvestor,No Change
+EICHERMOT,Reinvestor,Reinvestor,No Change
+GAIL,Mixed,Reinvestor,Changed
+GODREJCP,Reinvestor,Mixed,Changed
+GRASIM,Growth Funded by Debt,Growth Funded by Debt,No Change
+HAL,Reinvestor,Reinvestor,No Change
+HAVELLS,Liquidating Assets,Reinvestor,Changed
+HCLTECH,Reinvestor,Reinvestor,No Change
+HDFCBANK,Mixed,Liquidating Assets,Changed
+HDFCLIFE,Mixed,Reinvestor,Changed
+HEROMOTOCO,Reinvestor,Reinvestor,No Change
+HINDALCO,Reinvestor,Reinvestor,No Change
+HINDUNILVR,Reinvestor,Reinvestor,No Change
+ICICIBANK,Growth Funded by Debt,Mixed,Changed
+ICICIGI,Reinvestor,Reinvestor,No Change
+ICICIPRULI,Reinvestor,Unknown,Changed
+INDIGO,Reinvestor,Reinvestor,No Change
+INDUSINDBK,Growth Funded by Debt,Pre-Revenue,Changed
+INFY,Reinvestor,Reinvestor,No Change
+IOC,Reinvestor,Reinvestor,No Change
+IRCTC,Reinvestor,Reinvestor,No Change
+IRFC,Distress Signal,Reinvestor,Changed
+ITC,Reinvestor,Liquidating Assets,Changed
+JINDALSTEL,Reinvestor,Mixed,Changed
+JIOFIN,Reinvestor,Unknown,Changed
+JSWENERGY,Mixed,Mixed,No Change
+JSWSTEEL,Reinvestor,Reinvestor,No Change
+KOTAKBANK,Growth Funded by Debt,Mixed,Changed
+LICI,Reinvestor,Reinvestor,No Change
+LODHA,Liquidating Assets,Mixed,Changed
+LT,Reinvestor,Liquidating Assets,Changed
+LTIM,Reinvestor,Reinvestor,No Change
+M&M,Growth Funded by Debt,Growth Funded by Debt,No Change
+MARUTI,Reinvestor,Reinvestor,No Change
+MOTHERSON,Reinvestor,Mixed,Changed
+NAUKRI,Mixed,Mixed,No Change
+NESTLEIND,Reinvestor,Reinvestor,No Change
+NHPC,Reinvestor,Reinvestor,No Change
+NTPC,Reinvestor,Reinvestor,No Change
+ONGC,Reinvestor,Reinvestor,No Change
+PFC,Growth Funded by Debt,Growth Funded by Debt,No Change
+PIDILITIND,Reinvestor,Reinvestor,No Change
+PNB,Mixed,Growth Funded by Debt,Changed
+POWERGRID,Reinvestor,Reinvestor,No Change
+RECLTD,Growth Funded by Debt,Growth Funded by Debt,No Change
+RELIANCE,Mixed,Reinvestor,Changed
+SBILIFE,Reinvestor,Reinvestor,No Change
+SBIN,Growth Funded by Debt,Reinvestor,Changed
+SHREECEM,Reinvestor,Reinvestor,No Change
+SHRIRAMFIN,Distress Signal,Growth Funded by Debt,Changed
+SIEMENS,Reinvestor,Reinvestor,No Change
+SUNPHARMA,Mixed,Reinvestor,Changed
+TATACONSUM,Reinvestor,Mixed,Changed
+TATAMOTORS,Reinvestor,Reinvestor,No Change
+TATAPOWER,Mixed,Reinvestor,Changed
+TATASTEEL,Reinvestor,Reinvestor,No Change
+TCS,Liquidating Assets,Liquidating Assets,No Change
+TECHM,Reinvestor,Reinvestor,No Change
+TITAN,Mixed,Reinvestor,Changed
+TORNTPHARM,Mixed,Reinvestor,Changed
+TRENT,Reinvestor,Reinvestor,No Change
+TVSMOTOR,Growth Funded by Debt,Growth Funded by Debt,No Change
+ULTRACEMCO,Reinvestor,Reinvestor,No Change
+UNIONBANK,Reinvestor,Reinvestor,No Change
+UNITDSPR,Reinvestor,Liquidating Assets,Changed
+VBL,Reinvestor,Mixed,Changed
+VEDL,Reinvestor,Reinvestor,No Change
+WIPRO,Reinvestor,Liquidating Assets,Changed
+ZOMATO,Unknown,Reinvestor,Changed
+ZYDUSLIFE,Liquidating Assets,Reinvestor,Changed

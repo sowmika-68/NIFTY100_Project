@@ -233,6 +233,79 @@ def generate_cashflow_intelligence():
 
     return pd.DataFrame(results)
 
+def generate_pattern_reports():
+    """
+    Generate Capital Allocation reports.
+    """
+
+    capital_file = OUTPUT_DIR / "capital_allocation.csv"
+
+    capital_df = pd.read_csv(capital_file)
+
+    # Distribution Summary
+    summary = (
+        capital_df["pattern_label"]
+        .value_counts()
+        .reset_index()
+    )
+
+    summary.columns = [
+        "pattern_label",
+        "company_count",
+    ]
+
+    summary.to_csv(
+        OUTPUT_DIR / "capital_allocation_summary.csv",
+        index=False,
+    )
+
+    # Pattern Changes
+    pattern_changes = []
+
+    for company_id, group in capital_df.groupby("company_id"):
+
+        group = group.sort_values("year")
+
+        if len(group) < 2:
+
+            pattern_changes.append(
+                {
+                    "company_id": company_id,
+                    "previous_pattern": None,
+                    "current_pattern": group.iloc[-1]["pattern_label"],
+                    "status": "Only one year available",
+                }
+            )
+
+            continue
+
+        previous = group.iloc[-2]["pattern_label"]
+        current = group.iloc[-1]["pattern_label"]
+
+        status = (
+            "Changed"
+            if previous != current
+            else "No Change"
+        )
+
+        pattern_changes.append(
+            {
+                "company_id": company_id,
+                "previous_pattern": previous,
+                "current_pattern": current,
+                "status": status,
+            }
+        )
+
+    pattern_df = pd.DataFrame(pattern_changes)
+
+    pattern_df.to_csv(
+        OUTPUT_DIR / "pattern_changes.csv",
+        index=False,
+    )
+
+    return summary, pattern_df
+
 def main():
 
     print("=" * 50)
@@ -244,6 +317,11 @@ def main():
     df = detect_distress(df)
 
     save_reports(df)
+    summary_df, pattern_df = generate_pattern_reports()
+
+    print()
+    print("Capital Allocation Summary :", len(summary_df))
+    print("Pattern Change Records :", len(pattern_df))
 
     print()
     print("Companies :", len(df))

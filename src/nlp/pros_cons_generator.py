@@ -319,26 +319,26 @@ def main():
 
         if company_data.empty:
             all_results.append(
-            {
-                "company_id": company_id,
-                "type": "pro",
-                "rule_id": "PRO_DEFAULT",
-                "text": "Financial ratio data unavailable. Detailed evaluation pending.",
-                "confidence_pct": 65,
-            }
-        )
+                {
+                    "company_id": company_id,
+                    "type": "pro",
+                    "rule_id": "PRO_DEFAULT",
+                    "text": "Financial ratio data unavailable. Detailed evaluation pending.",
+                    "confidence_pct": 65,
+                }
+            )
 
-        all_results.append(
-            {
-                "company_id": company_id,
-                "type": "con",
-                "rule_id": "CON_DEFAULT",
-                "text": "Financial ratio data unavailable for rule evaluation.",
-                "confidence_pct": 65,
-            }
-        )
+            all_results.append(
+                {
+                    "company_id": company_id,
+                    "type": "con",
+                    "rule_id": "CON_DEFAULT",
+                    "text": "Financial ratio data unavailable for rule evaluation.",
+                    "confidence_pct": 65,
+                }
+            )
 
-        continue
+            continue
             
 
         pros = generate_pros(company_id, company_data)

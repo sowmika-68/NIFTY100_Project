@@ -1,95 +1,326 @@
 company_id,type,rule_id,text,confidence_pct
-ABB,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-ADANIENSOL,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-ADANIENT,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-ADANIGREEN,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-ADANIPORTS,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-ADANIPOWER,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-AMBUJACEM,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-APOLLOHOSP,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-ASIANPAINT,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
+ABB,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+ABB,pro,PRO_04,Very high interest coverage ratio reflects negligible financial stress from debt servicing,95
+ABB,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+ABB,con,CON_DEFAULT,No major financial weakness detected by current rule set. Continued monitoring is recommended.,65
+ADANIENSOL,pro,PRO_03,Operating profit margin above 25% indicates strong pricing power and cost discipline,95
+ADANIENSOL,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+ADANIENSOL,con,CON_01,Debt-to-equity ratio of 2.93 is elevated for a non-financial company and warrants monitoring.,90
+ADANIENSOL,con,CON_04,Return on equity below 10% suggests weak shareholder returns.,90
+ADANIENT,pro,PRO_DEFAULT,Company demonstrates stable financial characteristics requiring further evaluation.,65
+ADANIENT,con,CON_04,Return on equity below 10% suggests weak shareholder returns.,90
+ADANIENT,con,CON_05,Negative free cash flow raises concerns about cash generation quality.,90
+ADANIGREEN,pro,PRO_03,Operating profit margin above 25% indicates strong pricing power and cost discipline,95
+ADANIGREEN,con,CON_01,Debt-to-equity ratio of 6.60 is elevated for a non-financial company and warrants monitoring.,90
+ADANIGREEN,con,CON_05,Negative free cash flow raises concerns about cash generation quality.,90
+ADANIPORTS,pro,PRO_03,Operating profit margin above 25% indicates strong pricing power and cost discipline,95
+ADANIPORTS,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+ADANIPORTS,con,CON_DEFAULT,No major financial weakness detected by current rule set. Continued monitoring is recommended.,65
+ADANIPOWER,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+ADANIPOWER,pro,PRO_03,Operating profit margin above 25% indicates strong pricing power and cost discipline,95
+ADANIPOWER,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+ADANIPOWER,con,CON_DEFAULT,No major financial weakness detected by current rule set. Continued monitoring is recommended.,65
+AMBUJACEM,pro,PRO_04,Very high interest coverage ratio reflects negligible financial stress from debt servicing,95
+AMBUJACEM,con,CON_05,Negative free cash flow raises concerns about cash generation quality.,90
+APOLLOHOSP,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+APOLLOHOSP,con,CON_DEFAULT,No major financial weakness detected by current rule set. Continued monitoring is recommended.,65
+ASIANPAINT,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+ASIANPAINT,pro,PRO_04,Very high interest coverage ratio reflects negligible financial stress from debt servicing,95
+ASIANPAINT,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+ASIANPAINT,con,CON_DEFAULT,No major financial weakness detected by current rule set. Continued monitoring is recommended.,65
 ATGL,pro,PRO_DEFAULT,Financial ratio data unavailable. Detailed evaluation pending.,65
 ATGL,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-AXISBANK,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-BAJAJ-AUTO,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-BAJAJFINSV,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-BAJAJHLDNG,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-BAJFINANCE,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-BANKBARODA,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-BEL,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-BHARTIARTL,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-BHEL,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-BOSCHLTD,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-BPCL,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-BRITANNIA,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-CANBK,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-CHOLAFIN,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-CIPLA,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-COALINDIA,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-DABUR,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-DIVISLAB,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-DLF,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-DMART,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-DRREDDY,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-EICHERMOT,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-GAIL,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-GODREJCP,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-GRASIM,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-HAL,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-HAVELLS,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-HCLTECH,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-HDFCBANK,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-HDFCLIFE,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-HEROMOTOCO,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-HINDALCO,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-HINDUNILVR,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-ICICIBANK,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-ICICIGI,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-ICICIPRULI,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-INDIGO,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-INDUSINDBK,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-INFY,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-IOC,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-IRCTC,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-IRFC,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-ITC,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-JINDALSTEL,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-JIOFIN,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-JSWENERGY,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-JSWSTEEL,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-KOTAKBANK,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-LICI,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-LODHA,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-LT,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-LTIM,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-M&M,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-MARUTI,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-MOTHERSON,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-NAUKRI,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-NESTLEIND,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-NHPC,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-NTPC,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-ONGC,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-PFC,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-PIDILITIND,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-PNB,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-POWERGRID,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-RECLTD,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-RELIANCE,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-SBILIFE,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
+AXISBANK,pro,PRO_03,Operating profit margin above 25% indicates strong pricing power and cost discipline,95
+AXISBANK,con,CON_01,Debt-to-equity ratio of 8.25 is elevated for a non-financial company and warrants monitoring.,90
+AXISBANK,con,CON_05,Negative free cash flow raises concerns about cash generation quality.,90
+BAJAJ-AUTO,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+BAJAJ-AUTO,pro,PRO_04,Very high interest coverage ratio reflects negligible financial stress from debt servicing,95
+BAJAJ-AUTO,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+BAJAJ-AUTO,con,CON_DEFAULT,No major financial weakness detected by current rule set. Continued monitoring is recommended.,65
+BAJAJFINSV,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+BAJAJFINSV,pro,PRO_03,Operating profit margin above 25% indicates strong pricing power and cost discipline,95
+BAJAJFINSV,con,CON_01,Debt-to-equity ratio of 4.79 is elevated for a non-financial company and warrants monitoring.,90
+BAJAJFINSV,con,CON_05,Negative free cash flow raises concerns about cash generation quality.,90
+BAJAJHLDNG,pro,PRO_03,Operating profit margin above 25% indicates strong pricing power and cost discipline,95
+BAJAJHLDNG,pro,PRO_04,Very high interest coverage ratio reflects negligible financial stress from debt servicing,95
+BAJAJHLDNG,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+BAJAJHLDNG,con,CON_DEFAULT,No major financial weakness detected by current rule set. Continued monitoring is recommended.,65
+BAJFINANCE,pro,PRO_03,Operating profit margin above 25% indicates strong pricing power and cost discipline,95
+BAJFINANCE,pro,PRO_04,Very high interest coverage ratio reflects negligible financial stress from debt servicing,95
+BAJFINANCE,con,CON_01,Debt-to-equity ratio of 3.82 is elevated for a non-financial company and warrants monitoring.,90
+BAJFINANCE,con,CON_05,Negative free cash flow raises concerns about cash generation quality.,90
+BANKBARODA,pro,PRO_03,Operating profit margin above 25% indicates strong pricing power and cost discipline,95
+BANKBARODA,con,CON_01,Debt-to-equity ratio of 12.14 is elevated for a non-financial company and warrants monitoring.,90
+BANKBARODA,con,CON_05,Negative free cash flow raises concerns about cash generation quality.,90
+BEL,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+BEL,pro,PRO_04,Very high interest coverage ratio reflects negligible financial stress from debt servicing,95
+BEL,con,CON_05,Negative free cash flow raises concerns about cash generation quality.,90
+BHARTIARTL,pro,PRO_03,Operating profit margin above 25% indicates strong pricing power and cost discipline,95
+BHARTIARTL,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+BHARTIARTL,con,CON_01,Debt-to-equity ratio of 2.61 is elevated for a non-financial company and warrants monitoring.,90
+BHEL,pro,PRO_DEFAULT,Company demonstrates stable financial characteristics requiring further evaluation.,65
+BHEL,con,CON_03,Operating margins are relatively low and may indicate pricing or cost pressure.,90
+BHEL,con,CON_04,Return on equity below 10% suggests weak shareholder returns.,90
+BHEL,con,CON_05,Negative free cash flow raises concerns about cash generation quality.,90
+BOSCHLTD,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+BOSCHLTD,pro,PRO_04,Very high interest coverage ratio reflects negligible financial stress from debt servicing,95
+BOSCHLTD,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+BOSCHLTD,con,CON_DEFAULT,No major financial weakness detected by current rule set. Continued monitoring is recommended.,65
+BPCL,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+BPCL,pro,PRO_04,Very high interest coverage ratio reflects negligible financial stress from debt servicing,95
+BPCL,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+BPCL,con,CON_DEFAULT,No major financial weakness detected by current rule set. Continued monitoring is recommended.,65
+BRITANNIA,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+BRITANNIA,pro,PRO_04,Very high interest coverage ratio reflects negligible financial stress from debt servicing,95
+BRITANNIA,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+BRITANNIA,con,CON_DEFAULT,No major financial weakness detected by current rule set. Continued monitoring is recommended.,65
+CANBK,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+CANBK,con,CON_01,Debt-to-equity ratio of 14.87 is elevated for a non-financial company and warrants monitoring.,90
+CANBK,con,CON_03,Operating margins are relatively low and may indicate pricing or cost pressure.,90
+CHOLAFIN,pro,PRO_03,Operating profit margin above 25% indicates strong pricing power and cost discipline,95
+CHOLAFIN,pro,PRO_04,Very high interest coverage ratio reflects negligible financial stress from debt servicing,95
+CHOLAFIN,con,CON_01,Debt-to-equity ratio of 6.86 is elevated for a non-financial company and warrants monitoring.,90
+CHOLAFIN,con,CON_05,Negative free cash flow raises concerns about cash generation quality.,90
+CIPLA,pro,PRO_03,Operating profit margin above 25% indicates strong pricing power and cost discipline,95
+CIPLA,pro,PRO_04,Very high interest coverage ratio reflects negligible financial stress from debt servicing,95
+CIPLA,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+CIPLA,con,CON_DEFAULT,No major financial weakness detected by current rule set. Continued monitoring is recommended.,65
+COALINDIA,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+COALINDIA,pro,PRO_03,Operating profit margin above 25% indicates strong pricing power and cost discipline,95
+COALINDIA,pro,PRO_04,Very high interest coverage ratio reflects negligible financial stress from debt servicing,95
+COALINDIA,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+COALINDIA,con,CON_DEFAULT,No major financial weakness detected by current rule set. Continued monitoring is recommended.,65
+DABUR,pro,PRO_04,Very high interest coverage ratio reflects negligible financial stress from debt servicing,95
+DABUR,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+DABUR,con,CON_DEFAULT,No major financial weakness detected by current rule set. Continued monitoring is recommended.,65
+DIVISLAB,pro,PRO_03,Operating profit margin above 25% indicates strong pricing power and cost discipline,95
+DIVISLAB,pro,PRO_04,Very high interest coverage ratio reflects negligible financial stress from debt servicing,95
+DIVISLAB,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+DIVISLAB,con,CON_DEFAULT,No major financial weakness detected by current rule set. Continued monitoring is recommended.,65
+DLF,pro,PRO_03,Operating profit margin above 25% indicates strong pricing power and cost discipline,95
+DLF,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+DLF,con,CON_04,Return on equity below 10% suggests weak shareholder returns.,90
+DMART,pro,PRO_04,Very high interest coverage ratio reflects negligible financial stress from debt servicing,95
+DMART,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+DMART,con,CON_03,Operating margins are relatively low and may indicate pricing or cost pressure.,90
+DRREDDY,pro,PRO_03,Operating profit margin above 25% indicates strong pricing power and cost discipline,95
+DRREDDY,pro,PRO_04,Very high interest coverage ratio reflects negligible financial stress from debt servicing,95
+DRREDDY,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+DRREDDY,con,CON_DEFAULT,No major financial weakness detected by current rule set. Continued monitoring is recommended.,65
+EICHERMOT,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+EICHERMOT,pro,PRO_03,Operating profit margin above 25% indicates strong pricing power and cost discipline,95
+EICHERMOT,pro,PRO_04,Very high interest coverage ratio reflects negligible financial stress from debt servicing,95
+EICHERMOT,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+EICHERMOT,con,CON_DEFAULT,No major financial weakness detected by current rule set. Continued monitoring is recommended.,65
+GAIL,pro,PRO_04,Very high interest coverage ratio reflects negligible financial stress from debt servicing,95
+GAIL,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+GAIL,con,CON_DEFAULT,No major financial weakness detected by current rule set. Continued monitoring is recommended.,65
+GODREJCP,pro,PRO_DEFAULT,Company demonstrates stable financial characteristics requiring further evaluation.,65
+GODREJCP,con,CON_04,Return on equity below 10% suggests weak shareholder returns.,90
+GODREJCP,con,CON_05,Negative free cash flow raises concerns about cash generation quality.,90
+GRASIM,pro,PRO_DEFAULT,Company demonstrates stable financial characteristics requiring further evaluation.,65
+GRASIM,con,CON_05,Negative free cash flow raises concerns about cash generation quality.,90
+HAL,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+HAL,pro,PRO_03,Operating profit margin above 25% indicates strong pricing power and cost discipline,95
+HAL,pro,PRO_04,Very high interest coverage ratio reflects negligible financial stress from debt servicing,95
+HAL,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+HAL,con,CON_DEFAULT,No major financial weakness detected by current rule set. Continued monitoring is recommended.,65
+HAVELLS,pro,PRO_04,Very high interest coverage ratio reflects negligible financial stress from debt servicing,95
+HAVELLS,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+HAVELLS,con,CON_DEFAULT,No major financial weakness detected by current rule set. Continued monitoring is recommended.,65
+HCLTECH,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+HCLTECH,pro,PRO_04,Very high interest coverage ratio reflects negligible financial stress from debt servicing,95
+HCLTECH,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+HCLTECH,con,CON_DEFAULT,No major financial weakness detected by current rule set. Continued monitoring is recommended.,65
+HDFCBANK,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+HDFCBANK,con,CON_01,Debt-to-equity ratio of 6.81 is elevated for a non-financial company and warrants monitoring.,90
+HDFCBANK,con,CON_02,Interest coverage ratio below 1.5x indicates the company may struggle to meet debt obligations.,90
+HDFCBANK,con,CON_03,Operating margins are relatively low and may indicate pricing or cost pressure.,90
+HDFCLIFE,pro,PRO_03,Operating profit margin above 25% indicates strong pricing power and cost discipline,95
+HDFCLIFE,pro,PRO_04,Very high interest coverage ratio reflects negligible financial stress from debt servicing,95
+HDFCLIFE,con,CON_05,Negative free cash flow raises concerns about cash generation quality.,90
+HEROMOTOCO,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+HEROMOTOCO,pro,PRO_03,Operating profit margin above 25% indicates strong pricing power and cost discipline,95
+HEROMOTOCO,pro,PRO_04,Very high interest coverage ratio reflects negligible financial stress from debt servicing,95
+HEROMOTOCO,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+HEROMOTOCO,con,CON_DEFAULT,No major financial weakness detected by current rule set. Continued monitoring is recommended.,65
+HINDALCO,pro,PRO_03,Operating profit margin above 25% indicates strong pricing power and cost discipline,95
+HINDALCO,pro,PRO_04,Very high interest coverage ratio reflects negligible financial stress from debt servicing,95
+HINDALCO,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+HINDALCO,con,CON_04,Return on equity below 10% suggests weak shareholder returns.,90
+HINDUNILVR,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+HINDUNILVR,pro,PRO_03,Operating profit margin above 25% indicates strong pricing power and cost discipline,95
+HINDUNILVR,pro,PRO_04,Very high interest coverage ratio reflects negligible financial stress from debt servicing,95
+HINDUNILVR,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+HINDUNILVR,con,CON_DEFAULT,No major financial weakness detected by current rule set. Continued monitoring is recommended.,65
+ICICIBANK,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+ICICIBANK,con,CON_01,Debt-to-equity ratio of 6.45 is elevated for a non-financial company and warrants monitoring.,90
+ICICIBANK,con,CON_02,Interest coverage ratio below 1.5x indicates the company may struggle to meet debt obligations.,90
+ICICIBANK,con,CON_03,Operating margins are relatively low and may indicate pricing or cost pressure.,90
+ICICIGI,pro,PRO_03,Operating profit margin above 25% indicates strong pricing power and cost discipline,95
+ICICIGI,pro,PRO_04,Very high interest coverage ratio reflects negligible financial stress from debt servicing,95
+ICICIGI,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+ICICIGI,con,CON_DEFAULT,No major financial weakness detected by current rule set. Continued monitoring is recommended.,65
+ICICIPRULI,pro,PRO_04,Very high interest coverage ratio reflects negligible financial stress from debt servicing,95
+ICICIPRULI,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+ICICIPRULI,con,CON_03,Operating margins are relatively low and may indicate pricing or cost pressure.,90
+ICICIPRULI,con,CON_04,Return on equity below 10% suggests weak shareholder returns.,90
+INDIGO,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+INDIGO,pro,PRO_03,Operating profit margin above 25% indicates strong pricing power and cost discipline,95
+INDIGO,pro,PRO_04,Very high interest coverage ratio reflects negligible financial stress from debt servicing,95
+INDIGO,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+INDIGO,con,CON_DEFAULT,No major financial weakness detected by current rule set. Continued monitoring is recommended.,65
+INDUSINDBK,pro,PRO_03,Operating profit margin above 25% indicates strong pricing power and cost discipline,95
+INDUSINDBK,con,CON_01,Debt-to-equity ratio of 6.89 is elevated for a non-financial company and warrants monitoring.,90
+INDUSINDBK,con,CON_05,Negative free cash flow raises concerns about cash generation quality.,90
+INFY,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+INFY,pro,PRO_04,Very high interest coverage ratio reflects negligible financial stress from debt servicing,95
+INFY,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+INFY,con,CON_DEFAULT,No major financial weakness detected by current rule set. Continued monitoring is recommended.,65
+IOC,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+IOC,pro,PRO_04,Very high interest coverage ratio reflects negligible financial stress from debt servicing,95
+IOC,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+IOC,con,CON_DEFAULT,No major financial weakness detected by current rule set. Continued monitoring is recommended.,65
+IRCTC,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+IRCTC,pro,PRO_03,Operating profit margin above 25% indicates strong pricing power and cost discipline,95
+IRCTC,pro,PRO_04,Very high interest coverage ratio reflects negligible financial stress from debt servicing,95
+IRCTC,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+IRCTC,con,CON_DEFAULT,No major financial weakness detected by current rule set. Continued monitoring is recommended.,65
+IRFC,pro,PRO_03,Operating profit margin above 25% indicates strong pricing power and cost discipline,95
+IRFC,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+IRFC,con,CON_01,Debt-to-equity ratio of 8.38 is elevated for a non-financial company and warrants monitoring.,90
+IRFC,con,CON_02,Interest coverage ratio below 1.5x indicates the company may struggle to meet debt obligations.,90
+ITC,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+ITC,pro,PRO_03,Operating profit margin above 25% indicates strong pricing power and cost discipline,95
+ITC,pro,PRO_04,Very high interest coverage ratio reflects negligible financial stress from debt servicing,95
+ITC,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+ITC,con,CON_DEFAULT,No major financial weakness detected by current rule set. Continued monitoring is recommended.,65
+JINDALSTEL,pro,PRO_DEFAULT,Company demonstrates stable financial characteristics requiring further evaluation.,65
+JINDALSTEL,con,CON_05,Negative free cash flow raises concerns about cash generation quality.,90
+JIOFIN,pro,PRO_02,Debt-free balance sheet provides financial flexibility and eliminates interest burden,95
+JIOFIN,pro,PRO_03,Operating profit margin above 25% indicates strong pricing power and cost discipline,95
+JIOFIN,pro,PRO_04,Very high interest coverage ratio reflects negligible financial stress from debt servicing,95
+JIOFIN,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+JIOFIN,con,CON_04,Return on equity below 10% suggests weak shareholder returns.,90
+JSWENERGY,pro,PRO_03,Operating profit margin above 25% indicates strong pricing power and cost discipline,95
+JSWENERGY,con,CON_04,Return on equity below 10% suggests weak shareholder returns.,90
+JSWENERGY,con,CON_05,Negative free cash flow raises concerns about cash generation quality.,90
+JSWSTEEL,pro,PRO_DEFAULT,Company demonstrates stable financial characteristics requiring further evaluation.,65
+JSWSTEEL,con,CON_05,Negative free cash flow raises concerns about cash generation quality.,90
+KOTAKBANK,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+KOTAKBANK,con,CON_01,Debt-to-equity ratio of 4.00 is elevated for a non-financial company and warrants monitoring.,90
+KOTAKBANK,con,CON_02,Interest coverage ratio below 1.5x indicates the company may struggle to meet debt obligations.,90
+KOTAKBANK,con,CON_03,Operating margins are relatively low and may indicate pricing or cost pressure.,90
+LICI,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+LICI,pro,PRO_02,Debt-free balance sheet provides financial flexibility and eliminates interest burden,95
+LICI,pro,PRO_04,Very high interest coverage ratio reflects negligible financial stress from debt servicing,95
+LICI,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+LICI,con,CON_03,Operating margins are relatively low and may indicate pricing or cost pressure.,90
+LODHA,pro,PRO_03,Operating profit margin above 25% indicates strong pricing power and cost discipline,95
+LODHA,con,CON_04,Return on equity below 10% suggests weak shareholder returns.,90
+LODHA,con,CON_05,Negative free cash flow raises concerns about cash generation quality.,90
+LT,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+LT,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+LT,con,CON_DEFAULT,No major financial weakness detected by current rule set. Continued monitoring is recommended.,65
+LTIM,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+LTIM,pro,PRO_04,Very high interest coverage ratio reflects negligible financial stress from debt servicing,95
+LTIM,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+LTIM,con,CON_DEFAULT,No major financial weakness detected by current rule set. Continued monitoring is recommended.,65
+M&M,pro,PRO_DEFAULT,Company demonstrates stable financial characteristics requiring further evaluation.,65
+M&M,con,CON_05,Negative free cash flow raises concerns about cash generation quality.,90
+MARUTI,pro,PRO_04,Very high interest coverage ratio reflects negligible financial stress from debt servicing,95
+MARUTI,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+MARUTI,con,CON_DEFAULT,No major financial weakness detected by current rule set. Continued monitoring is recommended.,65
+MOTHERSON,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+MOTHERSON,con,CON_03,Operating margins are relatively low and may indicate pricing or cost pressure.,90
+NAUKRI,pro,PRO_03,Operating profit margin above 25% indicates strong pricing power and cost discipline,95
+NAUKRI,pro,PRO_04,Very high interest coverage ratio reflects negligible financial stress from debt servicing,95
+NAUKRI,con,CON_04,Return on equity below 10% suggests weak shareholder returns.,90
+NAUKRI,con,CON_05,Negative free cash flow raises concerns about cash generation quality.,90
+NESTLEIND,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+NESTLEIND,pro,PRO_04,Very high interest coverage ratio reflects negligible financial stress from debt servicing,95
+NESTLEIND,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+NESTLEIND,con,CON_DEFAULT,No major financial weakness detected by current rule set. Continued monitoring is recommended.,65
+NHPC,pro,PRO_03,Operating profit margin above 25% indicates strong pricing power and cost discipline,95
+NHPC,pro,PRO_04,Very high interest coverage ratio reflects negligible financial stress from debt servicing,95
+NHPC,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+NHPC,con,CON_DEFAULT,No major financial weakness detected by current rule set. Continued monitoring is recommended.,65
+NTPC,pro,PRO_03,Operating profit margin above 25% indicates strong pricing power and cost discipline,95
+NTPC,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+NTPC,con,CON_DEFAULT,No major financial weakness detected by current rule set. Continued monitoring is recommended.,65
+ONGC,pro,PRO_04,Very high interest coverage ratio reflects negligible financial stress from debt servicing,95
+ONGC,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+ONGC,con,CON_DEFAULT,No major financial weakness detected by current rule set. Continued monitoring is recommended.,65
+PFC,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+PFC,pro,PRO_03,Operating profit margin above 25% indicates strong pricing power and cost discipline,95
+PFC,con,CON_01,Debt-to-equity ratio of 8.52 is elevated for a non-financial company and warrants monitoring.,90
+PFC,con,CON_02,Interest coverage ratio below 1.5x indicates the company may struggle to meet debt obligations.,90
+PFC,con,CON_05,Negative free cash flow raises concerns about cash generation quality.,90
+PIDILITIND,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+PIDILITIND,pro,PRO_04,Very high interest coverage ratio reflects negligible financial stress from debt servicing,95
+PIDILITIND,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+PIDILITIND,con,CON_DEFAULT,No major financial weakness detected by current rule set. Continued monitoring is recommended.,65
+PNB,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+PNB,con,CON_01,Debt-to-equity ratio of 3.68 is elevated for a non-financial company and warrants monitoring.,90
+PNB,con,CON_05,Negative free cash flow raises concerns about cash generation quality.,90
+POWERGRID,pro,PRO_03,Operating profit margin above 25% indicates strong pricing power and cost discipline,95
+POWERGRID,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+POWERGRID,con,CON_DEFAULT,No major financial weakness detected by current rule set. Continued monitoring is recommended.,65
+RECLTD,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+RECLTD,pro,PRO_03,Operating profit margin above 25% indicates strong pricing power and cost discipline,95
+RECLTD,con,CON_01,Debt-to-equity ratio of 6.42 is elevated for a non-financial company and warrants monitoring.,90
+RECLTD,con,CON_05,Negative free cash flow raises concerns about cash generation quality.,90
+RELIANCE,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+RELIANCE,con,CON_04,Return on equity below 10% suggests weak shareholder returns.,90
+SBILIFE,pro,PRO_02,Debt-free balance sheet provides financial flexibility and eliminates interest burden,95
+SBILIFE,pro,PRO_04,Very high interest coverage ratio reflects negligible financial stress from debt servicing,95
+SBILIFE,con,CON_03,Operating margins are relatively low and may indicate pricing or cost pressure.,90
+SBILIFE,con,CON_05,Negative free cash flow raises concerns about cash generation quality.,90
 SBIN,pro,PRO_DEFAULT,Financial ratio data unavailable. Detailed evaluation pending.,65
 SBIN,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-SHREECEM,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-SHRIRAMFIN,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-SIEMENS,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-SUNPHARMA,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-TATACONSUM,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-TATAMOTORS,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-TATAPOWER,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-TATASTEEL,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-TCS,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-TECHM,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-TITAN,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-TORNTPHARM,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-TRENT,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
-TVSMOTOR,con,CON_DEFAULT,Financial ratio data unavailable for rule evaluation.,65
+SHREECEM,pro,PRO_04,Very high interest coverage ratio reflects negligible financial stress from debt servicing,95
+SHREECEM,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+SHREECEM,con,CON_04,Return on equity below 10% suggests weak shareholder returns.,90
+SHRIRAMFIN,pro,PRO_03,Operating profit margin above 25% indicates strong pricing power and cost discipline,95
+SHRIRAMFIN,con,CON_01,Debt-to-equity ratio of 3.99 is elevated for a non-financial company and warrants monitoring.,90
+SHRIRAMFIN,con,CON_02,Interest coverage ratio below 1.5x indicates the company may struggle to meet debt obligations.,90
+SHRIRAMFIN,con,CON_05,Negative free cash flow raises concerns about cash generation quality.,90
+SIEMENS,pro,PRO_04,Very high interest coverage ratio reflects negligible financial stress from debt servicing,95
+SIEMENS,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+SIEMENS,con,CON_DEFAULT,No major financial weakness detected by current rule set. Continued monitoring is recommended.,65
+SUNPHARMA,pro,PRO_03,Operating profit margin above 25% indicates strong pricing power and cost discipline,95
+SUNPHARMA,pro,PRO_04,Very high interest coverage ratio reflects negligible financial stress from debt servicing,95
+SUNPHARMA,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+SUNPHARMA,con,CON_DEFAULT,No major financial weakness detected by current rule set. Continued monitoring is recommended.,65
+TATACONSUM,pro,PRO_04,Very high interest coverage ratio reflects negligible financial stress from debt servicing,95
+TATACONSUM,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+TATACONSUM,con,CON_04,Return on equity below 10% suggests weak shareholder returns.,90
+TATAMOTORS,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+TATAMOTORS,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+TATAMOTORS,con,CON_DEFAULT,No major financial weakness detected by current rule set. Continued monitoring is recommended.,65
+TATAPOWER,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+TATAPOWER,con,CON_DEFAULT,No major financial weakness detected by current rule set. Continued monitoring is recommended.,65
+TATASTEEL,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+TATASTEEL,con,CON_04,Return on equity below 10% suggests weak shareholder returns.,90
+TCS,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+TCS,pro,PRO_03,Operating profit margin above 25% indicates strong pricing power and cost discipline,95
+TCS,pro,PRO_04,Very high interest coverage ratio reflects negligible financial stress from debt servicing,95
+TCS,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+TCS,con,CON_DEFAULT,No major financial weakness detected by current rule set. Continued monitoring is recommended.,65
+TECHM,pro,PRO_04,Very high interest coverage ratio reflects negligible financial stress from debt servicing,95
+TECHM,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+TECHM,con,CON_03,Operating margins are relatively low and may indicate pricing or cost pressure.,90
+TECHM,con,CON_04,Return on equity below 10% suggests weak shareholder returns.,90
+TITAN,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+TITAN,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+TITAN,con,CON_DEFAULT,No major financial weakness detected by current rule set. Continued monitoring is recommended.,65
+TORNTPHARM,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+TORNTPHARM,pro,PRO_03,Operating profit margin above 25% indicates strong pricing power and cost discipline,95
+TORNTPHARM,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+TORNTPHARM,con,CON_DEFAULT,No major financial weakness detected by current rule set. Continued monitoring is recommended.,65
+TRENT,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+TRENT,pro,PRO_05,Strong free cash flow generation signals healthy business fundamentals,95
+TRENT,con,CON_DEFAULT,No major financial weakness detected by current rule set. Continued monitoring is recommended.,65
+TVSMOTOR,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+TVSMOTOR,con,CON_01,Debt-to-equity ratio of 3.83 is elevated for a non-financial company and warrants monitoring.,90
+TVSMOTOR,con,CON_05,Negative free cash flow raises concerns about cash generation quality.,90
